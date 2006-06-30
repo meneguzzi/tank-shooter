@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="Tank">
+
+	<character-list>
+		<character id="player-tank" type="player">org.meneguzzi.tank.vehicles.PlayerTank</character>
+	</character-list>
+	<level-list>
+		<level id="level1">level1.xml</level>
+	</level-list>
+</game>
