@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level id="level1">
  <layer-list>
+  <bricklayer id="back1" file="res/tankbrigade.png" type="brick" dimension="1 1" brickSize="32 32" repeat="true" scroll="1"/>
+  <bricklayer id="ground" file="res/tankbrigade.png" type="brick" dimension="500 500" brickSize="32 32" repeat="false" scroll="1"/>
+  <bricklayer id="walls" file="res/tankbrigade.png" type="level" dimension="500 500" brickSize="32 32" repeat="false" scroll="1"/>
+  <spritelayer id="sprite-layer" type="sprite" dimension="250 200"/>
  </layer-list>
  <layout>
+  <brick-list>
+  	<!-- Background -->
+  	<brick layer="back1" position="0 0">74</brick>
+  	<!-- Ground -->
+  	<brick layer="ground" position="3 2">103</brick>
+  	<brick layer="ground" position="4 2">73</brick>
+  	<brick layer="ground" position="5 2">102</brick>
+  	
+  	<brick layer="ground" position="3 3">103</brick>
+  	<brick layer="ground" position="4 3">73</brick>
+  	<brick layer="ground" position="5 3">102</brick>
+  	
+  	<brick layer="ground" position="3 4">103</brick>
+  	<brick layer="ground" position="4 4">73</brick>
+  	<brick layer="ground" position="5 4">102</brick>
+  	
+  	<brick layer="ground" position="3 5">103</brick>
+  	<brick layer="ground" position="4 5">73</brick>
+  	<brick layer="ground" position="5 5">102</brick>
+  	
+  	<brick layer="ground" position="3 6">103</brick>
+  	<brick layer="ground" position="4 6">73</brick>
+  	<brick layer="ground" position="5 6">102</brick>
+  	
+  	<brick layer="ground" position="3 7">103</brick>
+  	<brick layer="ground" position="4 7">73</brick>
+  	<brick layer="ground" position="5 7">102</brick>
+  	
+  	<brick layer="ground" position="3 8">103</brick>
+  	<brick layer="ground" position="4 8">73</brick>
+  	<brick layer="ground" position="5 8">123</brick>
+  	<brick layer="ground" position="6 8">101</brick>
+  	
+  	<brick layer="ground" position="3 9">103</brick>
+  	<brick layer="ground" position="4 9">73</brick>
+  	<brick layer="ground" position="5 9">73</brick>
+  	
+  	<brick layer="ground" position="3 10">100</brick>
+  	<brick layer="ground" position="4 10">100</brick>
+  	<brick layer="ground" position="5 10">100</brick>
+  	<!-- Walls -->
+  	
+  	<brick layer="walls" position="2 2">23</brick>
+	<brick layer="walls" position="2 3">23</brick>
+	<brick layer="walls" position="2 4">23</brick>
+	<brick layer="walls" position="2 5">23</brick>
+	<brick layer="walls" position="2 6">23</brick>
+  </brick-list>
+  <character-list>
+    <character layer="sprite-layer" position="32 24">player-tank</character>
+  </character-list>
  </layout>
 </level>
