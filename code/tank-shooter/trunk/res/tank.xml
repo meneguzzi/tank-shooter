@@ -5,6 +5,6 @@
 		<character id="player-tank" type="player">org.meneguzzi.tank.vehicles.PlayerTank</character>
 	</character-list>
 	<level-list>
-		<level id="level1">level1.xml</level>
+		<level id="level1">res/level1.xml</level>
 	</level-list>
 </game>

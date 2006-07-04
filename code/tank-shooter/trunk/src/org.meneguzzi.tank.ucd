@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="org.meneguzzi.tank" size="994,640" id="." metadata="uml2-1.0" initialized="true" tag="5" key="32303036303431322074616E6B2D73686F6F746572">
+  <children xsi:type="editmodel:PackageEditModel" name="org.meneguzzi.tank" location="251,187" size="165,123" id="org.meneguzzi.tank">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="org.meneguzzi.tank.engine" location="351,187" size="213,159" id="org.meneguzzi.tank.engine">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="org.meneguzzi.tank.scenario" location="451,187" size="223,167" id="org.meneguzzi.tank.scenario">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="org.meneguzzi.tank.vehicles" location="551,187" size="221,165" id="org.meneguzzi.tank.vehicles">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=org.meneguzzi.tank;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
