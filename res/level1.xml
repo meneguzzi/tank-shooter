@@ -43,10 +43,25 @@
   	<brick layer="ground" position="3 9">103</brick>
   	<brick layer="ground" position="4 9">73</brick>
   	<brick layer="ground" position="5 9">73</brick>
+  	<brick layer="ground" position="6 9">73</brick>
   	
-  	<brick layer="ground" position="3 10">100</brick>
+  	<brick layer="ground" position="3 10">175</brick>
   	<brick layer="ground" position="4 10">100</brick>
   	<brick layer="ground" position="5 10">100</brick>
+  	<brick layer="ground" position="6 10">100</brick>
+  	
+  	<brick layer="ground" position="7 8">101</brick>
+  	<brick layer="ground" position="7 9">73</brick>
+  	<brick layer="ground" position="7 10">100</brick>
+  	
+  	<brick layer="ground" position="8 8">101</brick>
+  	<brick layer="ground" position="8 9">73</brick>
+  	<brick layer="ground" position="8 10">100</brick>
+  	
+  	<brick layer="ground" position="9 8">101</brick>
+  	<brick layer="ground" position="9 9">73</brick>
+  	<brick layer="ground" position="9 10">100</brick>
+  	
   	<!-- Walls -->
   	
   	<brick layer="walls" position="2 2">23</brick>
