@@ -1,5 +1,6 @@
 package org.meneguzzi.tank;
 
+import org.meneguzzi.tank.engine.PeleusTankEngine;
 import org.meneguzzi.tank.engine.TankEngine;
 
 import com.nerdcorpgames.gamelib.engines.GraphicEngine.VideoMode;
@@ -21,7 +22,9 @@ public class TankGame {
 		
 		gameEngine.graphicEngine.setVideoMode(false, vm);
 		
-		TankEngine tankEngine = new TankEngine();
+//		TankEngine tankEngine = new TankEngine();
+		PeleusTankEngine tankEngine = new PeleusTankEngine();
+		
 		tankEngine.startGame();
 	}
 
